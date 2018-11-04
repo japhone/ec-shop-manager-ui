@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>商家信息修改</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <style>
+  .row{margin-bottom:6px;}
+  </style>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper jf-margin-left-no">
+
+    <!-- Main content -->
+    <section class="content jf-padding-left-no jf-padding-right-no">
+
+      <div class="box box-info">
+        <div class="box-header with-border">
+          <h3 class="box-title">商家信息</h3>
+        </div>
+        <!-- /.box-header -->
+          <div class="box-body">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">公司名称</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="公司名称" name="name">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">店铺名称</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="店铺名称" name="nickName">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">公司手机</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="公司手机" name="mobile">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">公司电话</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="公司电话" name="phone">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">详细地址</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="详细地址" name="addressDetail">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">联系人姓名</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="联系人姓名" name="linkmanName">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">联系人QQ</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="联系人QQ" name="linkmanQq">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">联系人电话</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="联系人电话" name="linkmanMobile">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">联系人EMAIL</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="联系人EMAIL" name="linkmanEmail">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">营业执照号</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="营业执照号" name="licenseNumber">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">税务登记证号</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="税务登记证号" name="taxNumber">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">组织机构代码</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="组织机构代码" name="orgNumber">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">法定代表人</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="法定代表人" name="legalPerson">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">法定代表人身份证</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="法定代表人身份证" name="legalPersonCardId">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">开户行账号名称</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="开户行账号名称" name="bankUser">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">开户行</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="开户行" name="bankName">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-4 control-label">银行帐号</label>
+
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control jf-form-radius" placeholder="开户行" name="bankName">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="box-footer">
+            <button type="button" class="btn btn-info pull-right">保存</button>
+            <button type="button" class="btn btn-warning pull-right jf-margin-space">提交</button>
+          </div>
+          <!-- /.box-footer -->
+      </div>
+
+    </section>
+    <!-- /.content -->
+  </div>
+
+</div>
+<!-- ./wrapper -->
+
+<!-- 编辑模态框 -->
+<div class="modal fade" id="editModule">
+  <div class="modal-dialog">
+    <div class="box box-primary">
+      <div class="modal-content jf-modal-lr-radius">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">新增/编辑商家表</h4>
+        </div>
+        <div class="modal-body">
+          <table class="table table-bordered table-striped"  width="800px">
+                  <tr>
+                    <td>用户ID</td>
+                    <td><input name="sellerId" class="form-control jf-form-radius" placeholder="用户ID"/></td>
+                  </tr>
+                  <tr>
+                    <td>公司名称</td>
+                    <td><input name="name" class="form-control jf-form-radius" placeholder="公司名称"/></td>
+                  </tr>
+                  <tr>
+                    <td>店铺名称</td>
+                    <td><input name="nickName" class="form-control jf-form-radius" placeholder="店铺名称"/></td>
+                  </tr>
+                  <tr>
+                    <td>密码</td>
+                    <td><input name="password" class="form-control jf-form-radius" placeholder="密码"/></td>
+                  </tr>
+                  <tr>
+                    <td>EMAIL</td>
+                    <td><input name="email" class="form-control jf-form-radius" placeholder="EMAIL"/></td>
+                  </tr>
+                  <tr>
+                    <td>公司手机</td>
+                    <td><input name="mobile" class="form-control jf-form-radius" placeholder="公司手机"/></td>
+                  </tr>
+                  <tr>
+                    <td>公司电话</td>
+                    <td><input name="phone" class="form-control jf-form-radius" placeholder="公司电话"/></td>
+                  </tr>
+                  <tr>
+                    <td>状态</td>
+                    <td><input name="status" class="form-control jf-form-radius" placeholder="状态"/></td>
+                  </tr>
+                  <tr>
+                    <td>详细地址</td>
+                    <td><input name="addressDetail" class="form-control jf-form-radius" placeholder="详细地址"/></td>
+                  </tr>
+                  <tr>
+                    <td>联系人姓名</td>
+                    <td><input name="linkmanName" class="form-control jf-form-radius" placeholder="联系人姓名"/></td>
+                  </tr>
+                  <tr>
+                    <td>联系人QQ</td>
+                    <td><input name="linkmanQq" class="form-control jf-form-radius" placeholder="联系人QQ"/></td>
+                  </tr>
+                  <tr>
+                    <td>联系人电话</td>
+                    <td><input name="linkmanMobile" class="form-control jf-form-radius" placeholder="联系人电话"/></td>
+                  </tr>
+                  <tr>
+                    <td>联系人EMAIL</td>
+                    <td><input name="linkmanEmail" class="form-control jf-form-radius" placeholder="联系人EMAIL"/></td>
+                  </tr>
+                  <tr>
+                    <td>营业执照号</td>
+                    <td><input name="licenseNumber" class="form-control jf-form-radius" placeholder="营业执照号"/></td>
+                  </tr>
+                  <tr>
+                    <td>税务登记证号</td>
+                    <td><input name="taxNumber" class="form-control jf-form-radius" placeholder="税务登记证号"/></td>
+                  </tr>
+                  <tr>
+                    <td>组织机构代码</td>
+                    <td><input name="orgNumber" class="form-control jf-form-radius" placeholder="组织机构代码"/></td>
+                  </tr>
+                  <tr>
+                    <td>公司地址</td>
+                    <td><input name="address" class="form-control jf-form-radius" placeholder="公司地址"/></td>
+                  </tr>
+                  <tr>
+                    <td>公司LOGO图</td>
+                    <td><input name="logoPic" class="form-control jf-form-radius" placeholder="公司LOGO图"/></td>
+                  </tr>
+                  <tr>
+                    <td>简介</td>
+                    <td><input name="brief" class="form-control jf-form-radius" placeholder="简介"/></td>
+                  </tr>
+                  <tr>
+                    <td>创建日期</td>
+                    <td><input name="createdTime" class="form-control jf-form-radius" placeholder="创建日期"/></td>
+                  </tr>
+                  <tr>
+                    <td>法定代表人</td>
+                    <td><input name="legalPerson" class="form-control jf-form-radius" placeholder="法定代表人"/></td>
+                  </tr>
+                  <tr>
+                    <td>法定代表人身份证</td>
+                    <td><input name="legalPersonCardId" class="form-control jf-form-radius" placeholder="法定代表人身份证"/></td>
+                  </tr>
+                  <tr>
+                    <td>开户行账号名称</td>
+                    <td><input name="bankUser" class="form-control jf-form-radius" placeholder="开户行账号名称"/></td>
+                  </tr>
+                  <tr>
+                    <td>开户行</td>
+                    <td><input name="bankName" class="form-control jf-form-radius" placeholder="开户行"/></td>
+                  </tr>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+
+          <button type="button" class="btn btn-primary">保存</button>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+
+<!-- 详情模态框 -->
+<div class="modal fade" id="detailModule">
+  <div class="modal-dialog">
+    <div class="box box-primary">
+      <div class="modal-content jf-modal-lr-radius">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">商家表详情</h4>
+        </div>
+        <div class="modal-body">
+          <table class="table table-bordered table-striped"  width="800px">
+                  <tr>
+                    <td>用户ID</td>
+                    <td>用户ID</td>
+                  </tr>
+                  <tr>
+                    <td>公司名称</td>
+                    <td>公司名称</td>
+                  </tr>
+                  <tr>
+                    <td>店铺名称</td>
+                    <td>店铺名称</td>
+                  </tr>
+                  <tr>
+                    <td>密码</td>
+                    <td>密码</td>
+                  </tr>
+                  <tr>
+                    <td>EMAIL</td>
+                    <td>EMAIL</td>
+                  </tr>
+                  <tr>
+                    <td>公司手机</td>
+                    <td>公司手机</td>
+                  </tr>
+                  <tr>
+                    <td>公司电话</td>
+                    <td>公司电话</td>
+                  </tr>
+                  <tr>
+                    <td>状态</td>
+                    <td>状态</td>
+                  </tr>
+                  <tr>
+                    <td>详细地址</td>
+                    <td>详细地址</td>
+                  </tr>
+                  <tr>
+                    <td>联系人姓名</td>
+                    <td>联系人姓名</td>
+                  </tr>
+                  <tr>
+                    <td>联系人QQ</td>
+                    <td>联系人QQ</td>
+                  </tr>
+                  <tr>
+                    <td>联系人电话</td>
+                    <td>联系人电话</td>
+                  </tr>
+                  <tr>
+                    <td>联系人EMAIL</td>
+                    <td>联系人EMAIL</td>
+                  </tr>
+                  <tr>
+                    <td>营业执照号</td>
+                    <td>营业执照号</td>
+                  </tr>
+                  <tr>
+                    <td>税务登记证号</td>
+                    <td>税务登记证号</td>
+                  </tr>
+                  <tr>
+                    <td>组织机构代码</td>
+                    <td>组织机构代码</td>
+                  </tr>
+                  <tr>
+                    <td>公司地址</td>
+                    <td>公司地址</td>
+                  </tr>
+                  <tr>
+                    <td>公司LOGO图</td>
+                    <td>公司LOGO图</td>
+                  </tr>
+                  <tr>
+                    <td>简介</td>
+                    <td>简介</td>
+                  </tr>
+                  <tr>
+                    <td>创建日期</td>
+                    <td>创建日期</td>
+                  </tr>
+                  <tr>
+                    <td>法定代表人</td>
+                    <td>法定代表人</td>
+                  </tr>
+                  <tr>
+                    <td>法定代表人身份证</td>
+                    <td>法定代表人身份证</td>
+                  </tr>
+                  <tr>
+                    <td>开户行账号名称</td>
+                    <td>开户行账号名称</td>
+                  </tr>
+                  <tr>
+                    <td>开户行</td>
+                    <td>开户行</td>
+                  </tr>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+
+<!-- jQuery 3 -->
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
